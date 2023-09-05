@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    app:cardCornerRadius="22dp"
+    app:cardElevation="8dp"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginVertical="8dp"
+    tools:cardBackgroundColor="@color/teal_200">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black">
+
+        <ImageView
+            android:id="@+id/ivStarship"
+            android:layout_width="match_parent"
+            android:scaleType="centerCrop"
+            android:layout_height="match_parent" />
+
+        <!-- scaletype -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_gravity="bottom"
+            android:orientation="vertical"
+            android:background="@color/starship_item_name">
+
+            <TextView
+                android:id="@+id/tvStarshipName"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:maxLength="30"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                tools:text="STAR WARS" />
+            <TextView
+                android:id="@+id/tvStarshipModelo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textColor="@color/black"
+                tools:text="MODELO 01" />
+        </LinearLayout>
+    </FrameLayout>
+
+
+    >
+
+</androidx.cardview.widget.CardView>

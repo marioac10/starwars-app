@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">StarshipsacApp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">STAR WARS</string>
+    <string name="nav_header_subtitle">starwars@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!--MENU-->
+    <string name="menu_home">Home</string>
+    <string name="menu_starships">Starships</string>
+    <string name="menu_planets">Planets</string>
+    <string name="menu_detail">Starship-Detail</string>
+
+    <!--HOME-->
+    <string name="home_title">Welcome to STAR WARS</string>
+    <string name="home_categories">Categories</string>
+    <string name="home_collections">Collections</string>
+    <string name="home_dialog_add_collection">Add the collection</string>
+
+    <string name="dialog_category_starships">Starships</string>
+    <string name="dialog_category_planets">Planets</string>
+    <string name="dialog_category_species">Species</string>
+    <string name="dialog_collection_button">Create collection</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

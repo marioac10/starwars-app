@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/starship_navigation"
+    app:startDestination="@id/starshipFragment">
+
+    <fragment
+        android:id="@+id/starshipFragment"
+        android:name="com.example.starshipsacapp.ui.starship.StarshipFragment"
+        android:label="fragment_starship"
+        tools:layout="@layout/fragment_starship" />
+    <fragment
+        android:id="@+id/starshipDetailFragment"
+        android:name="com.example.starshipsacapp.ui.starship.StarshipDetailFragment"
+        android:label="fragment_starship_detail"
+        tools:layout="@layout/fragment_starship_detail" />
+</navigation>
